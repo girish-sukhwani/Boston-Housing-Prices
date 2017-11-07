@@ -10,6 +10,7 @@ This project requires **Python 2.7** and the following Python libraries installe
 - [matplotlib](http://matplotlib.org/)
 - [scikit-learn](http://scikit-learn.org/stable/)
 - [Jupyter Notebook](http://ipython.org/notebook.html)
+- [PySpark](https://spark.apache.org/docs/2.1.0/)(Only for the PySpark Implementation)
 
 ### Code
 
@@ -21,10 +22,24 @@ In a terminal or command window, navigate to the top-level project directory `bo
 
 ```bash
 ipython notebook boston_housing.ipynb
-```  
+```
 or
 ```bash
 jupyter notebook boston_housing.ipynb
+```
+
+Similarly, for the PySpark implementation, run the following commands:
+
+
+
+```bash
+ipython notebook boston_housing_PySpark.ipynb
+```
+
+or
+
+```bash
+jupyter notebook boston_housing_PySpark.ipynb
 ```
 
 This will open the Jupyter Notebook software and project file in your browser.
@@ -35,8 +50,8 @@ The modified Boston housing dataset consists of 489 data points, with each datap
 
 **Features**
 1.  `RM`: average number of rooms per dwelling
-2. `LSTAT`: percentage of population considered lower status
-3. `PTRATIO`: pupil-teacher ratio by town
+2.  `LSTAT`: percentage of population considered lower status
+3.  `PTRATIO`: pupil-teacher ratio by town
 
 **Target Variable**
 4. `MEDV`: median value of owner-occupied homes

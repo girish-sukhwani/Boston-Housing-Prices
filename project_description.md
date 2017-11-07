@@ -13,12 +13,14 @@ Things we will learn from this project:
 - How to analyze various learning performance plots for variance and bias.
 - How to determine the best-guess model for predictions from unseen data.
 - How to evaluate a model's performance on unseen data using previous data.
+- How to do all of the above tasks in **PySpark**.
 
 ## Description
-The Boston housing market is highly competitive, and we want to be the best real estate agent in the area. To compete with our peers, we decide to leverage a few basic machine learning concepts to assist us and a client with finding the best selling price for their home. Luckily, we\'ve come across the Boston Housing dataset which contains aggregated data on various features for houses in Greater Boston communities, including the median value of homes for each of those areas. Your task is to build an optimal model based on a statistical analysis with the tools available. This model will then be used to estimate the best selling price for our clients\' homes.
+The Boston housing market is highly competitive, and we want to be the best real estate agent in the area. To compete with our peers, we decide to leverage a few basic machine learning concepts to assist us and a client with finding the best selling price for their home. Luckily, we've come across the Boston Housing dataset which contains aggregated data on various features for houses in Greater Boston communities, including the median value of homes for each of those areas. Your task is to build an optimal model based on a statistical analysis with the tools available. This model will then be used to estimate the best selling price for our clients\' homes.
 
 This project contains three files:
 
-- `boston_housing.ipynb`: This is the main file containing the code for the project.
+- `boston_housing.ipynb`: This is the main file containing the implementation using **Scikit-Learn**, **Pandas**, **NumPy**, and **Matplotlib**.
+- `boston_housing_PySpark.ipynb`: This is the main file containing the implementation in **PySpark**.
 - `housing.csv`: The project dataset. You'll load this data in the notebook.
 - `visuals.py`: This Python script provides supplementary visualizations for the project.
